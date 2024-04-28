@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up/In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="schedule.css" />
+    <!-- for tab icon -->
+    <!-- <link rel="icon" href="solutions-icon.svg" />
+    <link rel="apple-touch-icon" href="solutions-icon.svg" />
+    <link rel="manifest" href="manifest.webmanifest" /> -->
+
+                
+        <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <img
+        src="solutions-icon.svg"
+        alt="Solutions logo"
+        class="solutions-logo"
+      />
+
+      <div class="main-navbar">
+        <a href="#"
+          ><img class="nav_btn_img" src="images/home-icon.svg" alt="home-icon"
+        /></a>
+        <a href="./schedule/index.html?index=0"
+          ><img
+            class="nav_btn_img"
+            src="images/schedule-icon.svg"
+            alt="schedule-icon"
+        /></a>
+      </div>
+
+      <div class="hamburger-button" id="hamburger">
+        <div class="sidemenu">
+          <div class="menu">
+            <ul class="contact-us_content list">
+              <li class="contact-us_list-item ham">
+                <a href="#"
+                  ><img
+                    class="nav_btn_img"
+                    src="images/home-icon.svg"
+                    alt="home-icon"
+                /></a>
+              </li>
+              <li class="contact-us_list-item ham">
+                <a href="./schedule/index.html?index=0"
+                  ><img
+                    class="nav_btn_img"
+                    src="images/schedule-icon.svg"
+                    alt="schedule-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- --Nav bar end-- -->
+
+
+    <body>
+        <section class="container forms">
+            <div class="form login">
+                <div class="form-content">
+                    <header>Login</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" placeholder="Password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="field input-field">
+                          <input type="password" placeholder="Place From" class="password">
+                          
+                      </div>
+                      <div class="field input-field">
+                        <input type="text" placeholder="Place To" class="password">
+          
+                    </div>
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">Forgot password?</a>
+                        </div>
+                        <div class="field button-field">
+                            <button><a href="../Shipper/potterid.html" style="color: black;">Login</a></button>
+                        </div>
+                    </form>
+                    <div class="form-link">
+                        <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="#" alt="" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Signup Form -->
+            <div class="form signup">
+                <div class="form-content">
+                    <header>Signup</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" placeholder="Create password" class="password">
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" placeholder="Confirm password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="field button-field">
+                            <button>Signup</button>
+                        </div>
+                    </form>
+                    <div class="form-link">
+                        <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="#" alt="" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- JavaScript -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
+    <!---------------- Footer ---------------->
+    <div class="container-footer">
+      <footer class="container footer">
+        <div class="get-to-know-us footer-ele">
+          <p>Get to know us</p>
+
+          <a href="./#about_us" class>About us</a>
+           
+        </div>
+
+        <div class="site-map footer-ele">
+          <p>Site Map</p>
+          <a href="#">Home</a>
+          <a href="" target="_blank" rel="noopener"
+            >Discord</a
+          >
+        </div>
+
+        <div class="follow-us-on footer-ele">
+          <p>Follow us on</p>
+          <div class="follow-us-on-items">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/discord-footer.svg" alt="discord-icon"
+            /></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/instagram-icon.svg" alt="instagram-icon"
+            /></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/linkedin-icon.svg" alt="linkedin-icon"
+            /></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/facebook-icon.svg" alt="facebook-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="nav.js"></script>
+  <script type="module" src="script.js"></script>
+</html>

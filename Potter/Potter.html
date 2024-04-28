@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GATISHAKTI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Potter.css" />
+    <!-- for tab icon -->
+    <link rel="icon" href="images/solutions-icon.svg" />
+    <link rel="apple-touch-icon" href="images/solutions-icon.svg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+  </head>
+  <script
+    defer
+    src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <!-- --Nav bar--- -->
+    <nav class="navbar">
+      <img
+        src="images/solutions-icon.svg"
+        alt="Solutions logo"
+        class="solutions-logo"
+      />
+
+      <div class="main-navbar">
+        <a href="#"
+          ><img class="nav_btn_img" src="images/home-icon.svg" alt="home-icon"
+        /></a>
+        <a href="./schedule/index.html"
+          ><img
+            class="nav_btn_img"
+            src="images/schedule-icon.svg"
+            alt="schedule-icon"
+        /></a>
+      </div>
+
+      <div class="hamburger-button" id="hamburger">
+        <div class="sidemenu">
+          <div class="menu">
+            <ul class="contact-us_content list">
+              <li class="contact-us_list-item ham">
+                <a href="#"
+                  ><img
+                    class="nav_btn_img"
+                    src="images/home-icon.svg"
+                    alt="home-icon"
+                /></a>
+              </li>
+              <li class="contact-us_list-item ham">
+                <a href="./schedule/index.html"
+                  ><img
+                    class="nav_btn_img"
+                    src="images/schedule-icon.svg"
+                    alt="schedule-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- --Nav bar end-- -->
+    <div id="particles-js"></div>
+    <section class="header" id="header" style="padding-top: 70px; display: initial;">
+      <div class="container">
+        <!-- Title of the form -->
+        <div class="title">Fill the Details</div>
+        <hr>
+        <div class="content">
+          <!-- Registration form -->
+          <form action="#">
+            <div class="user-details">
+              <!-- Input box for full name -->
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <!-- Input box for username -->
+              <div class="input-box">
+                <span class="details">Place to Pick</span>
+                <input type="text" placeholder="Enter your Pickup Address" required>
+              </div>
+              <!-- Input box for email -->
+              <div class="input-box">
+                <span class="details">Drop</span>
+                <input type="text" placeholder="Enter your Drop Address" required>
+              </div>
+              <!-- Input box for password -->
+              <div class="input-box">
+                <span class="details">Mobile No.</span>
+                <input type="text" placeholder="Mobile No." required>
+              </div>
+              <!-- Input box for confirming password -->
+              <div class="input-box">
+                <span class="details">Goods Weight</span>
+                <input type="text" placeholder="Goods Weight" required>
+              </div>
+              <!-- Input box for date of birth -->
+              <div class="input-box">
+                <span class="details">Date of birth</span>
+                <input type="date" name="dob" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Price</span>
+                <input type="text" placeholder="Price" required>
+              </div>
+            </div>
+            <!-- Button container -->
+            <div class="button-container">
+             <button> <a href="../potterid/potterid.html">
+              <div class="button">
+                <!-- Submit button -->
+                <a href="../potterid/potterid.html"><input type="submit" value="Place"></a>
+              </div>
+             </a>
+            </div>
+             </button>
+             <a href="../potterid/potterid.html">Place</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <section class="header1"id="header1" style="display: none;">
+      <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Pickup Address</th>
+                <th>Drop Address</th>
+                <th>Mobile No.</th>
+                <th>Goods Weight</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th><a href="">Status</a></th>
+                <th>Cancel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adarsh</td>
+                <td>Pune</td>
+                <td>Bikaner</td>
+                <td>9216429746</td>
+                <td>400kg</td>
+                <td>16 June 2024</td>
+                <td>6000</td>
+                <td>Pending</td>
+                <td><a href="">Cancel</a></td>
+            </tr>
+          
+        </tbody>
+    </table>
+    </section>
+
+    <!---------------- Footer ---------------->
+    <div class="container-footer">
+      <footer class="container footer">
+        <div class="get-to-know-us footer-ele">
+          <p>Get to know us</p>
+
+          <a href="./#about_us" class>About us</a>
+           
+        </div>
+
+        <div class="site-map footer-ele">
+          <p>Site Map</p>
+          <a href="#">Home</a>
+          <a href="" target="_blank" rel="noopener"
+            >Discord</a
+          >
+        </div>
+
+        <div class="follow-us-on footer-ele">
+          <p>Follow us on</p>
+          <div class="follow-us-on-items">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/discord-footer.svg" alt="discord-icon"
+            /></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/instagram-icon.svg" alt="instagram-icon"
+            /></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/linkedin-icon.svg" alt="linkedin-icon"
+            /></a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              ><img src="images/facebook-icon.svg" alt="facebook-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="table.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+  <script src="table.js"></script>
+  <script src="nav.js"></script>
+</html>
